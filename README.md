@@ -1,2 +1,4 @@
 # Meta-Model-for-Regime-Adaptive-Deep-Hedging-under-Stochastic-Volatility
 This repository implements a regime-adaptive deep hedging framework for options under stochastic volatility. Specialised neural network hedging policies are trained on low-, medium-, and high-volatility regimes simulated via the Heston model, while a meta-classification model infers the prevailing regime from observable market features and selects the appropriate policy — functioning as a mixture-of-experts system. The framework is evaluated on synthetic Heston paths and on real equity data spanning the COVID-19 volatility shock, benchmarked against classical Black–Scholes delta hedging.
+
+Code available upon request.
